@@ -16,9 +16,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "The Lazy Developer"
 title_separator          : "-"
-name                     : "Your Name"
+name                     : "Aaron Shelley"
 description              : "An amazing website."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -106,13 +106,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Aaron Shelley"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
+  location         : "Dayton, OH"
   email            :
   links:
-    - label: "Email"
+    - label: "amshelley86@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       # url: mailto:your.name@email.com
     - label: "Website"
@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/ASxa86"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -293,3 +293,9 @@ defaults:
       comments: # true
       share: true
       related: true
+  - score:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
