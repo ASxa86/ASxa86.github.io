@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "The Lazy Developer"
+title                    : ""
 title_separator          : "-"
 name                     : "Aaron Shelley"
 description              : "An amazing website."
@@ -107,14 +107,16 @@ analytics:
 # Site Author
 author:
   name             : "Aaron Shelley"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/assets/images/profile_picture.jpg"
+  bio              :  |+
+    "Know how to solve every problem that has been solved."
+    -Richard Feynman
   location         : "Dayton, OH"
   email            :
   links:
     - label: "amshelley86@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      # url: mailto:your.name@email.com
+      url: mailto:amshelley86@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://your-website.com"
